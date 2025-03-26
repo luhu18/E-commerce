@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Modern E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ShopEase</div>
+        <div class="nav-items">
+            <a href="#" class="active">Home</a>
+            <a href="#">Categories</a>
+            <a href="#">Deals</a>
+            <a href="#">Contact</a>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to ShopEase</h1>
+            <p>Discover Amazing Products at Great Prices</p>
+            <button class="cta-button">Shop Now</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Fashion</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Electronics</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Home & Living</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Sports</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="deals">
+            <h2>Special Deals</h2>
+            <div class="deals-slider" id="dealsSlider">
+                <!-- Deals will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your trusted online shopping destination for quality products.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShopEase. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
